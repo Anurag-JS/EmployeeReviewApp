@@ -1,6 +1,6 @@
 // Required modules
 const User = require('../models/user'); // Importing User model
-const Feedback = require('../models/Feedback'); // Importing Feedback model
+const Feedback = require('../models/feedback'); // Importing Feedback model
 
 // Controller functions for employee actions
 

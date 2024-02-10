@@ -1,6 +1,6 @@
 // Required modules
 const User = require('../models/user');
-const Feedback = require('../models/Feedback');
+const Feedback = require('../models/feedback.js');
 const bcrypt = require('bcryptjs');
 
 // Controller functions for admin actions
