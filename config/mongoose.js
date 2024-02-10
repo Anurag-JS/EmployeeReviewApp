@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const mongoUrl = process.env;
 
 // Function to establish connection with MongoDB using async/await
-exports.connect = async () => {
+ async () => {
     try {
         // Connecting to MongoDB using Mongoose
         await mongoose.connect(mongoUrl, {
