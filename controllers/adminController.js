@@ -1,5 +1,5 @@
 // Required modules
-const User = require('../models/User');
+const User = require('../models/user');
 const Feedback = require('../models/Feedback');
 const bcrypt = require('bcryptjs');
 

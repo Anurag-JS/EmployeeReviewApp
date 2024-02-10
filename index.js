@@ -9,7 +9,7 @@ const expressLayouts = require('express-ejs-layouts');
 const flash = require('connect-flash');
 const myMware = require('./config/middleware');
 const MongoStore = require('connect-mongo');
-
+const db =require('./config/mongoose')
 const PORT = env.port
 
 // Creating an Express application
