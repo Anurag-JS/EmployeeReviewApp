@@ -8,7 +8,7 @@ const LocalStrategy = require('passport-local').Strategy;
 const bcrypt = require('bcryptjs');
 
 // Importing the User model
-const User = require('../models/User');
+const User = require('../models/user');
 
 // Configuring Passport to use LocalStrategy for authentication
 passport.use(new LocalStrategy(
